@@ -1,0 +1,2030 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Prashanth Krishnan — Matrimonial Profile</title>
+  <meta name="description"
+    content="Matrimonial Profile & Digital Biodata of Sai Prashanth Krishnan — Founder & Product Designer based in Chennai, roots in Manjamattom, Kottayam, Kerala." />
+  <meta property="og:title" content="Sai Prashanth Krishnan — Matrimonial Profile" />
+  <meta property="og:description"
+    content="35 yrs · 165 cm · B.E. & MBA · Founder & Product Designer · Chennai / Kottayam" />
+  <meta property="og:type" content="website" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Playfair Display, Plus Jakarta Sans & Noto Sans Malayalam -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- QRCode.js for dynamic shareable QR code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            burgundy: {
+              50: "#fdf2f4",
+              100: "#fce7eb",
+              200: "#f8d0d8",
+              700: "#881337",
+              800: "#6b1229",
+              900: "#4c0d1d",
+              950: "#320611",
+            },
+            gold: {
+              50: "#fbf8f1",
+              100: "#f5eedc",
+              200: "#ead9b3",
+              300: "#dec083",
+              400: "#d1a453",
+              500: "#c58f36",
+              600: "#a87228",
+              700: "#875722",
+            },
+            ivory: {
+              50: "#fdfcfa",
+              100: "#f9f6f0",
+              200: "#f1ece1",
+              300: "#e5ddd0",
+            },
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', '"Noto Sans Malayalam"', "serif"],
+            sans: [
+              '"Plus Jakarta Sans"',
+              '"Noto Sans Malayalam"',
+              "sans-serif",
+            ],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    body {
+      background-color: #f9f6f0;
+      color: #292220;
+      font-family: "Plus Jakarta Sans", "Noto Sans Malayalam", sans-serif;
+      overflow-x: hidden;
+    }
+
+    .font-editorial {
+      font-family: "Playfair Display", "Noto Sans Malayalam", serif;
+    }
+
+    /* Subtle Kerala Kasavu / Traditional Gold Motif Border */
+    .kasavu-border {
+      background-image: linear-gradient(90deg,
+          #c58f36 0%,
+          #ead9b3 50%,
+          #c58f36 100%);
+    }
+
+    .traditional-frame {
+      border: 2px solid #c58f36;
+      box-shadow:
+        inset 0 0 0 4px #fdfcfa,
+        inset 0 0 0 5px #dec083;
+    }
+
+    /* Hide scrollbars on horizontal pill nav */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Toast Notification Animation */
+    @keyframes slideUp {
+      from {
+        transform: translate(-50%, 100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+      }
+    }
+
+    .toast-active {
+      animation: slideUp 0.25s ease-out forwards;
+    }
+
+    /* Print Styles for Dual-Template PDF Biodata Export */
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #print-biodata-area,
+      #print-biodata-area * {
+        visibility: visible;
+      }
+
+      #print-biodata-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+        background: #ffffff !important;
+        color: #111827 !important;
+        box-shadow: none !important;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="antialiased selection:bg-burgundy-800 selection:text-ivory-50">
+  <!-- Top Decorative Kasavu Strip -->
+  <div class="h-1.5 w-full kasavu-border"></div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky top-0 z-40 bg-ivory-50/95 backdrop-blur-md border-b border-gold-200/70 shadow-sm no-print">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-2">
+      <!-- Brand / Name -->
+      <a href="#top" class="flex items-center gap-2.5 min-w-0">
+        <span
+          class="w-9 h-9 rounded-full bg-burgundy-900 text-gold-200 flex items-center justify-center font-editorial font-bold text-base shrink-0 border border-gold-400/50">
+          SP
+        </span>
+        <div class="truncate">
+          <p class="font-editorial font-bold text-burgundy-950 text-sm sm:text-base truncate" data-i18n="nav_name">
+            Sai Prashanth Krishnan
+          </p>
+          <p class="text-[11px] text-stone-500 truncate" data-i18n="nav_sub">
+            Matrimonial Biodata
+          </p>
+        </div>
+      </a>
+
+      <!-- Desktop Section Links -->
+      <nav class="hidden md:flex items-center gap-5 text-xs font-semibold text-stone-600">
+        <a href="#about" class="hover:text-burgundy-800 transition" data-i18n="nav_about">About</a>
+        <a href="#horoscope" class="hover:text-burgundy-800 transition" data-i18n="nav_horoscope">Horoscope</a>
+        <a href="#career" class="hover:text-burgundy-800 transition" data-i18n="nav_career">Education & Career</a>
+        <a href="#family" class="hover:text-burgundy-800 transition" data-i18n="nav_family">Family</a>
+        <a href="#gallery" class="hover:text-burgundy-800 transition" data-i18n="nav_gallery">Gallery</a>
+        <a href="#preferences" class="hover:text-burgundy-800 transition" data-i18n="nav_preferences">Partner</a>
+      </nav>
+
+      <!-- Language Switcher & PDF Action -->
+      <div class="flex items-center gap-2 shrink-0">
+        <div class="inline-flex rounded-full bg-ivory-200 p-0.5 border border-gold-300/70" role="group"
+          aria-label="Language Toggle">
+          <button id="btn-lang-en" onclick="setLanguage('en')"
+            class="px-2.5 py-1 rounded-full text-xs font-semibold transition bg-burgundy-900 text-ivory-50 shadow-sm">
+            EN
+          </button>
+          <button id="btn-lang-ml" onclick="setLanguage('ml')"
+            class="px-2.5 py-1 rounded-full text-xs font-semibold transition text-stone-700 hover:text-burgundy-900">
+            മലയാളം
+          </button>
+        </div>
+
+        <button onclick="openBiodataModal()"
+          class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gold-100 hover:bg-gold-200 text-burgundy-900 border border-gold-400 text-xs font-semibold transition">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          <span data-i18n="btn_pdf_short">Biodata PDF</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Quick-Jump Pill Bar -->
+    <div
+      class="md:hidden border-t border-gold-200/50 bg-ivory-100/90 px-3 py-2 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs font-medium text-stone-700">
+      <a href="#about" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_about">About</a>
+      <a href="#horoscope" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_horoscope">Horoscope</a>
+      <a href="#career" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_career">Career</a>
+      <a href="#family" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_family">Family</a>
+      <a href="#gallery" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_gallery">Gallery</a>
+      <a href="#preferences" class="px-3 py-1 rounded-full bg-white border border-gold-200 shrink-0"
+        data-i18n="nav_preferences">Partner</a>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="top" class="max-w-5xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-24 space-y-10 sm:space-y-14 no-print">
+    <!-- HERO SECTION -->
+    <section
+      class="relative rounded-3xl bg-gradient-to-br from-burgundy-950 via-burgundy-900 to-burgundy-800 text-ivory-50 p-6 sm:p-10 shadow-xl overflow-hidden border border-gold-500/40">
+      <!-- Decorative Radial Glow -->
+      <div class="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-gold-400/10 blur-2xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-gold-500/10 blur-2xl pointer-events-none">
+      </div>
+
+      <div class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-7 sm:gap-9 items-center">
+        <!-- Hero Portrait Frame -->
+        <div class="md:col-span-4 flex flex-col items-center">
+          <div
+            class="relative w-52 h-64 sm:w-60 sm:h-72 rounded-2xl p-1.5 bg-gradient-to-b from-gold-300 via-gold-500 to-gold-700 shadow-2xl">
+            <div class="w-full h-full rounded-xl overflow-hidden bg-burgundy-950 relative">
+              <img id="hero-portrait-img" src="./gallery/profile/me_in_suits.webp" alt="Sai Prashanth Krishnan"
+                onerror="handleImageFallback(this, 'Sai Prashanth')"
+                class="w-full h-full object-cover object-top transition duration-500 hover:scale-105" />
+            </div>
+            <!-- Verified Badge -->
+            <div
+              class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-ivory-50 text-burgundy-950 px-3 py-1 rounded-full shadow-md border border-gold-400 flex items-center gap-1.5 whitespace-nowrap">
+              <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+              <span class="text-[11px] font-bold tracking-wide uppercase" data-i18n="hero_status">Never Married · 35
+                Yrs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Details & Direct Actions -->
+        <div class="md:col-span-8 text-center md:text-left space-y-5">
+          <div>
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-gold-400/30 text-gold-200 text-xs font-medium mb-3">
+              <span>✦</span>
+              <span data-i18n="hero_eyebrow">Matrimonial Profile &amp; Family Biodata</span>
+            </div>
+            <h1
+              class="font-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight leading-tight">
+              Sai Prashanth Krishnan
+            </h1>
+            <p class="mt-2 text-base sm:text-lg text-gold-200 font-medium" data-i18n="hero_subtitle">
+              Founder &amp; Product Designer · Chennai, Tamil Nadu
+            </p>
+            <p class="mt-1 text-xs sm:text-sm text-ivory-200/80" data-i18n="hero_roots">
+              Native Roots: Manjamattom, Kottayam, Kerala
+            </p>
+          </div>
+
+          <!-- Quick Highlight Badges -->
+          <div class="flex flex-wrap justify-center md:justify-start gap-2 text-xs">
+            <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-white/15 text-ivory-50 font-medium"
+              data-i18n="badge_dob">
+              🎂 5 June 1991 (35 Yrs)
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-white/15 text-ivory-50 font-medium"
+              data-i18n="badge_physique">
+              📏 165 cm · 65 kg
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-white/15 text-ivory-50 font-medium"
+              data-i18n="badge_community">
+              🕉️ Hindu · Vishwakarma
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-white/15 text-ivory-50 font-medium"
+              data-i18n="badge_star">
+              ✨ Chadayam · Pada 3
+            </span>
+            <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-white/15 text-ivory-50 font-medium"
+              data-i18n="badge_edu">
+              🎓 B.E. (EEE) &amp; MBA
+            </span>
+          </div>
+
+          <!-- Instant Action Buttons -->
+          <div class="pt-2 flex flex-wrap justify-center md:justify-start gap-3">
+            <a href="https://wa.me/919962139116?text=Namaskaram%2C%20we%20viewed%20Sai%20Prashanth%20Krishnan%27s%20matrimonial%20profile%20and%20would%20like%20to%20connect."
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm shadow-lg shadow-emerald-950/30 transition transform active:scale-95">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z" />
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.79 23.49l4.614-1.462A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.167 0-4.184-.704-5.822-1.895l-2.918.925.944-2.838A9.776 9.776 0 012.182 12c0-5.414 4.404-9.818 9.818-9.818 5.414 0 9.818 4.404 9.818 9.818 0 5.414-4.404 9.818-9.818 9.818z" />
+              </svg>
+              <span data-i18n="cta_whatsapp">WhatsApp</span>
+            </a>
+
+            <a href="tel:+919962139116"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gold-500 hover:bg-gold-400 text-burgundy-950 font-bold text-sm shadow-lg transition transform active:scale-95">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span data-i18n="cta_call">Call +91 99621 39116</span>
+            </a>
+
+            <button onclick="openBiodataModal()"
+              class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-ivory-50 border border-gold-300/40 font-semibold text-sm transition">
+              <svg class="w-4 h-4 text-gold-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+              </svg>
+              <span data-i18n="cta_biodata">Download / Print PDF</span>
+            </button>
+
+            <button onclick="openShareModal()"
+              class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-ivory-50 border border-white/20 font-semibold text-sm transition">
+              <svg class="w-4 h-4 text-gold-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+              </svg>
+              <span data-i18n="cta_qr">QR &amp; Share</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & PERSONALITY + PERSONAL DETAILS -->
+    <section id="about" class="scroll-mt-24 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8">
+      <!-- Left Column: Personality & Hobbies -->
+      <div
+        class="lg:col-span-5 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm flex flex-col justify-between space-y-6">
+        <div class="space-y-4">
+          <div class="flex items-center gap-2.5">
+            <span
+              class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">01</span>
+            <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_about_title">
+              About Me
+            </h2>
+          </div>
+          <p class="text-stone-700 leading-relaxed text-sm sm:text-base" data-i18n="about_intro">
+            "A thoughtful, creative and technology-oriented person who enjoys
+            designing and building digital products, staying active, listening
+            to music and continuously learning."
+          </p>
+        </div>
+
+        <div class="space-y-3 pt-4 border-t border-gold-200/60">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-burgundy-800" data-i18n="hobbies_heading">
+            Interests &amp; Lifestyle
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-1.5 rounded-full bg-ivory-200/80 text-stone-800 text-xs font-medium border border-gold-300/60"
+              data-i18n="hobby_1">💻 Technology &amp; Product Design</span>
+            <span
+              class="px-3 py-1.5 rounded-full bg-ivory-200/80 text-stone-800 text-xs font-medium border border-gold-300/60"
+              data-i18n="hobby_2">🚀 Building Digital Products</span>
+            <span
+              class="px-3 py-1.5 rounded-full bg-ivory-200/80 text-stone-800 text-xs font-medium border border-gold-300/60"
+              data-i18n="hobby_3">🎵 Music</span>
+            <span
+              class="px-3 py-1.5 rounded-full bg-ivory-200/80 text-stone-800 text-xs font-medium border border-gold-300/60"
+              data-i18n="hobby_4">🏃‍♂️ Fitness &amp; Regular Exercise</span>
+            <span
+              class="px-3 py-1.5 rounded-full bg-ivory-200/80 text-stone-800 text-xs font-medium border border-gold-300/60"
+              data-i18n="hobby_5">📚 Continuous Learning</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Personal Attributes Grid -->
+      <div class="lg:col-span-7 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-5">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2.5">
+            <span
+              class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">02</span>
+            <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_personal_title">
+              Personal Details
+            </h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3.5 text-sm">
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_fullname">Full Name</span>
+            <span class="font-semibold text-stone-900">Sai Prashanth Krishnan</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_dob">Date of Birth &amp; Age</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_dob">5 June 1991 (35 Years)</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_birthplace">Place of Birth</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_birthplace">Kottayam, Kerala</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_native">Native Place</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_native">Manjamattom, Kottayam, Kerala</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_location">Current Location</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_location">Chennai, Tamil Nadu</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_mothertongue">Mother Tongue &amp;
+              Languages</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_languages">Malayalam (English, Tamil)</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_physique">Height, Weight &amp; Build</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_physique">165 cm · 65 kg · Average</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_complexion">Complexion</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_complexion">Wheatish</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_diet">Food Preference</span>
+            <span class="font-semibold text-stone-900" data-i18n="val_diet">Non-Vegetarian</span>
+          </div>
+          <div class="flex justify-between sm:flex-col border-b border-ivory-200 pb-2">
+            <span class="text-stone-500 text-xs font-medium" data-i18n="lbl_habits">Smoking / Alcohol / Fitness</span>
+            <span class="font-semibold text-emerald-800" data-i18n="val_habits">No / No · Regular Exercise</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOROSCOPE / ASTROLOGICAL DETAILS -->
+    <section id="horoscope"
+      class="scroll-mt-24 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-300/80 shadow-sm relative overflow-hidden">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-gold-200">
+        <div class="flex items-center gap-3">
+          <span
+            class="w-10 h-10 rounded-xl bg-gold-100 text-burgundy-900 flex items-center justify-center text-lg border border-gold-400">
+            ☸
+          </span>
+          <div>
+            <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_horoscope_title">
+              Horoscope &amp; Astrological Details
+            </h2>
+            <p class="text-xs text-stone-500" data-i18n="sec_horoscope_sub">
+              Hindu · Vishwakarma Community
+            </p>
+          </div>
+        </div>
+
+        <a href="https://wa.me/919962139116?text=Namaskaram%2C%20we%20reviewed%20Sai%20Prashanth%20Krishnan%27s%20profile%20and%20would%20like%20to%20request%20his%20Jathakam%20(Horoscope)%20for%20matching."
+          target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-burgundy-900 hover:bg-burgundy-800 text-gold-200 text-xs font-semibold shadow transition self-start md:self-auto">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          </svg>
+          <span data-i18n="btn_req_jathakam">Request Jathakam on WhatsApp</span>
+        </a>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_birthtime">
+            Birth Time
+          </p>
+          <p class="mt-1 font-bold text-burgundy-950 text-sm sm:text-base">
+            10:55 AM
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_nakshatra">
+            Nakshatra
+          </p>
+          <p class="mt-1 font-bold text-burgundy-950 text-sm sm:text-base" data-i18n="val_nakshatra">
+            Chadayam (Pada 3)
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_rashi">
+            Rashi
+          </p>
+          <p class="mt-1 font-bold text-burgundy-950 text-sm sm:text-base" data-i18n="val_rashi">
+            Kumbha (Aquarius)
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_lagnam">
+            Lagnam
+          </p>
+          <p class="mt-1 font-bold text-burgundy-950 text-sm sm:text-base" data-i18n="val_lagnam">
+            Cancer (Karkidakam)
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_community">
+            Religion / Caste
+          </p>
+          <p class="mt-1 font-bold text-burgundy-950 text-sm sm:text-base" data-i18n="val_community">
+            Hindu · Vishwakarma
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-[11px] uppercase tracking-wider text-stone-500 font-semibold" data-i18n="lbl_jathakam">
+            Jathakam Status
+          </p>
+          <p class="mt-1 font-bold text-emerald-800 text-xs sm:text-sm" data-i18n="val_jathakam">
+            Available (Private)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & PROFESSIONAL CAREER -->
+    <section id="career" class="scroll-mt-24 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8">
+      <!-- Education Qualifications -->
+      <div class="lg:col-span-5 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-6">
+        <div class="flex items-center gap-2.5">
+          <span
+            class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">03</span>
+          <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_edu_title">
+            Education
+          </h2>
+        </div>
+
+        <div class="space-y-4">
+          <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70 relative">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-full bg-gold-200/70 text-burgundy-950 text-[11px] font-bold mb-1.5">2015
+              · First Class</span>
+            <h3 class="font-bold text-stone-900 text-base">
+              MBA – Project Management
+            </h3>
+            <p class="text-xs text-stone-600 mt-0.5">Annamalai University</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70 relative">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-full bg-ivory-200 text-stone-700 text-[11px] font-bold mb-1.5">2015
+              · Post Graduate</span>
+            <h3 class="font-bold text-stone-900 text-base">
+              Post Graduate – Industrial Relations
+            </h3>
+            <p class="text-xs text-stone-600 mt-0.5">Annamalai University</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70 relative">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-full bg-gold-200/70 text-burgundy-950 text-[11px] font-bold mb-1.5">2012
+              · First Class</span>
+            <h3 class="font-bold text-stone-900 text-base">
+              B.E. Electrical &amp; Electronics Engineering
+            </h3>
+            <p class="text-xs text-stone-600 mt-0.5">Meenakshi University</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Career Timeline -->
+      <div class="lg:col-span-7 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="flex items-center gap-2.5">
+            <span
+              class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">04</span>
+            <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_career_title">
+              Professional Journey
+            </h2>
+          </div>
+          <span
+            class="px-3 py-1 rounded-full bg-burgundy-50 text-burgundy-900 border border-burgundy-200 text-xs font-semibold"
+            data-i18n="career_exp_badge">
+            6+ Yrs in Product Design · 13+ Yrs Total Exp.
+          </span>
+        </div>
+
+        <div class="relative pl-6 border-l-2 border-gold-300 space-y-5">
+          <!-- Current Role -->
+          <div class="relative">
+            <span
+              class="absolute -left-[31px] top-1 w-3.5 h-3.5 rounded-full bg-burgundy-800 ring-4 ring-gold-200"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-burgundy-950 text-base">
+                Founder &amp; Product Designer
+              </h3>
+              <span
+                class="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">Jan
+                2026 – Present</span>
+            </div>
+            <p class="text-sm font-medium text-stone-700">
+              AstroAnimate
+              <span class="text-xs text-stone-500">(Self-employed / Building Own Product)</span>
+            </p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-500"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">
+                Senior UI/UX Designer (Contract)
+              </h3>
+              <span class="text-xs text-stone-500">Oct 2025 – Dec 2025</span>
+            </div>
+            <p class="text-xs text-stone-600">
+              Elantronics Technology Pvt. Ltd.
+            </p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-500"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">UI/UX Designer</h3>
+              <span class="text-xs text-stone-500">Feb 2020 – Oct 2025</span>
+            </div>
+            <p class="text-xs text-stone-600">
+              Neravath Technologies (Samay Labs)
+            </p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-400"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">
+                Freelance UI/UX &amp; Graphic Designer
+              </h3>
+              <span class="text-xs text-stone-500">Jul 2018 – Jan 2020</span>
+            </div>
+            <p class="text-xs text-stone-600">Self-employed</p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-400"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">
+                Senior Electrical Engineer
+              </h3>
+              <span class="text-xs text-stone-500">Sep 2016 – Jun 2018</span>
+            </div>
+            <p class="text-xs text-stone-600">
+              Dodsal E &amp; C / Kuwait Oil Corporation (International)
+            </p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-300"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">
+                Junior Project Engineer – Electrical
+              </h3>
+              <span class="text-xs text-stone-500">Jan 2015 – Mar 2016</span>
+            </div>
+            <p class="text-xs text-stone-600">Kevin Electricals</p>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-gold-300"></span>
+            <div class="flex flex-wrap items-center justify-between gap-1">
+              <h3 class="font-bold text-stone-900 text-sm">Site Engineer</h3>
+              <span class="text-xs text-stone-500">Jun 2012 – Jul 2015</span>
+            </div>
+            <p class="text-xs text-stone-600">
+              Manali Petrochemicals Plant – 2
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAMILY BACKGROUND -->
+    <section id="family"
+      class="scroll-mt-24 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-6">
+      <div class="flex items-center gap-2.5">
+        <span
+          class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">05</span>
+        <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_family_title">
+          Family Background
+        </h2>
+      </div>
+
+      <blockquote
+        class="p-5 rounded-2xl bg-gradient-to-r from-ivory-100 to-gold-50/60 border-l-4 border-burgundy-800 text-stone-700 text-sm sm:text-base leading-relaxed italic"
+        data-i18n="family_intro">
+        "Our family has its roots in Manjamattom, Kottayam, Kerala, and is
+        currently based in Chennai. My father, Late Krishnan, was an
+        Electrical Engineer, and my mother, Prasanna Kumari, is a homemaker.
+        We are a close-knit family of simple values, with respect for
+        traditions, mutual understanding, and care for one another. We believe
+        in maintaining strong family bonds while embracing modern
+        perspectives."
+      </blockquote>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-xs text-stone-500 font-medium" data-i18n="lbl_father">
+            Father
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="val_father">
+            Krishnan (Late)
+          </p>
+          <p class="text-xs text-stone-600 mt-0.5" data-i18n="val_father_occ">
+            Electrical Engineer
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-xs text-stone-500 font-medium" data-i18n="lbl_mother">
+            Mother
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="val_mother">
+            Prasanna Kumari
+          </p>
+          <p class="text-xs text-stone-600 mt-0.5" data-i18n="val_mother_occ">
+            Homemaker
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-xs text-stone-500 font-medium" data-i18n="lbl_siblings">
+            Siblings
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="val_siblings">
+            1 Brother
+          </p>
+          <p class="text-xs text-stone-600 mt-0.5" data-i18n="val_sisters">
+            No Sisters
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-ivory-100 border border-gold-200/70">
+          <p class="text-xs text-stone-500 font-medium" data-i18n="lbl_family_type">
+            Family Values &amp; Roots
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="val_family_type">
+            Nuclear · Middle Class
+          </p>
+          <p class="text-xs text-stone-600 mt-0.5" data-i18n="val_family_roots">
+            Manjamattom, Kottayam / Chennai
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY & LIGHTBOX -->
+    <section id="gallery"
+      class="scroll-mt-24 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-2.5">
+          <span
+            class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">06</span>
+          <div>
+            <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_gallery_title">
+              Photo Gallery
+            </h2>
+            <p class="text-xs text-stone-500" data-i18n="sec_gallery_sub">
+              Tap any photograph to view full screen
+            </p>
+          </div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="flex flex-wrap gap-2 text-xs font-semibold">
+          <button onclick="filterGallery('all', this)"
+            class="gallery-filter-btn px-3.5 py-1.5 rounded-full bg-burgundy-900 text-ivory-50 transition"
+            data-i18n="filter_all">
+            All
+          </button>
+          <button onclick="filterGallery('portraits', this)"
+            class="gallery-filter-btn px-3.5 py-1.5 rounded-full bg-ivory-200 text-stone-700 hover:bg-gold-200 transition"
+            data-i18n="filter_portraits">
+            Portraits
+          </button>
+          <button onclick="filterGallery('selfie', this)"
+            class="gallery-filter-btn px-3.5 py-1.5 rounded-full bg-ivory-200 text-stone-700 hover:bg-gold-200 transition"
+            data-i18n="filter_selfie">
+            Selfie
+          </button>
+          <button onclick="filterGallery('collage', this)"
+            class="gallery-filter-btn px-3.5 py-1.5 rounded-full bg-ivory-200 text-stone-700 hover:bg-gold-200 transition"
+            data-i18n="filter_collage">
+            Collage
+          </button>
+          <button onclick="filterGallery('travel', this)"
+            class="gallery-filter-btn px-3.5 py-1.5 rounded-full bg-ivory-200 text-stone-700 hover:bg-gold-200 transition"
+            data-i18n="filter_travel">
+            Travel
+          </button>
+        </div>
+      </div>
+
+      <!-- Responsive Photo Grid -->
+      <div id="gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3.5 sm:gap-4">
+        <!-- Populated dynamically via JS for synced Lightbox indexing -->
+      </div>
+    </section>
+
+    <!-- PARTNER PREFERENCES -->
+    <section id="preferences"
+      class="scroll-mt-24 bg-ivory-50 rounded-3xl p-6 sm:p-8 border border-gold-200/80 shadow-sm space-y-6">
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <div class="flex items-center gap-2.5">
+          <span
+            class="w-8 h-8 rounded-lg bg-burgundy-50 text-burgundy-800 flex items-center justify-center font-editorial font-bold border border-burgundy-200">07</span>
+          <h2 class="font-editorial text-2xl font-bold text-burgundy-950" data-i18n="sec_partner_title">
+            Partner Preferences
+          </h2>
+        </div>
+        <span class="px-3 py-1 rounded-full bg-gold-100 text-burgundy-900 border border-gold-300 text-xs font-semibold"
+          data-i18n="partner_flex_badge">
+          Flexible &amp; Open to Discussion
+        </span>
+      </div>
+
+      <p class="text-stone-700 text-sm sm:text-base leading-relaxed" data-i18n="partner_expectation">
+        "Looking for a kind, understanding, caring, respectful, and
+        family-oriented life partner who values mutual respect, trust,
+        understanding, and togetherness."
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.5 text-sm">
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_age">
+            Preferred Age
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_age">
+            25 – 32 Years
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_marital">
+            Marital Status
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_marital">
+            Never Married
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_edu">
+            Education
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_edu">
+            Graduate or Above
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_loc">
+            Location
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_loc">
+            Anywhere in India
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_height">
+            Height
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_height">
+            No Specific Preference
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_prof">
+            Profession
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_prof">
+            Any Profession
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_religion">
+            Religion / Community
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_religion">
+            Open / No Specific Preference
+          </p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-ivory-100 border border-gold-200/60">
+          <p class="text-xs text-stone-500" data-i18n="pref_lbl_qualities">
+            Core Qualities
+          </p>
+          <p class="font-bold text-stone-900 mt-0.5" data-i18n="pref_val_qualities">
+            Kind, Caring &amp; Family-Oriented
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & QR CODE CARD -->
+    <section id="contact"
+      class="rounded-3xl bg-burgundy-950 text-ivory-50 p-6 sm:p-10 border border-gold-500/40 shadow-xl">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-8 space-y-4">
+          <span
+            class="inline-block px-3 py-1 rounded-full bg-gold-500/20 border border-gold-400/40 text-gold-200 text-xs font-semibold"
+            data-i18n="contact_badge">
+            Direct Family &amp; Personal Contact
+          </span>
+          <h2 class="font-editorial text-2xl sm:text-3xl font-bold text-white" data-i18n="contact_title">
+            Connect with Us
+          </h2>
+          <p class="text-ivory-200/85 text-sm leading-relaxed max-w-xl" data-i18n="contact_desc">
+            Families, elders, and matrimonial coordinators are warmly welcome
+            to reach out via phone call or WhatsApp to take discussions
+            forward or request horoscope matching details.
+          </p>
+
+          <div class="pt-2 flex flex-col sm:flex-row gap-3">
+            <a href="https://wa.me/919962139116?text=Namaskaram%2C%20we%20viewed%20Sai%20Prashanth%20Krishnan%27s%20matrimonial%20profile%20and%20would%20like%20to%20connect."
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm transition">
+              <span>WhatsApp: +91 99621 39116</span>
+            </a>
+
+            <a href="tel:+919962139116"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-gold-500 hover:bg-gold-400 text-burgundy-950 font-bold text-sm transition">
+              <span>Call: +91 99621 39116</span>
+            </a>
+
+            <button onclick="copyProfileLink()"
+              class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-ivory-50 border border-white/20 font-medium text-sm transition">
+              <span data-i18n="btn_copylink">Copy Profile Link</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Inline QR Code Card -->
+        <div
+          class="md:col-span-4 flex flex-col items-center justify-center bg-ivory-50 text-burgundy-950 p-5 rounded-2xl border-2 border-gold-400 shadow-lg">
+          <div id="footer-qrcode" class="p-2 bg-white rounded-xl"></div>
+          <p class="mt-3 text-xs font-bold text-center text-burgundy-950" data-i18n="qr_caption">
+            Scan to Open Digital Biodata
+          </p>
+          <p class="text-[11px] text-stone-500 text-center mt-0.5">
+            +91 99621 39116
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <div
+    class="fixed bottom-0 inset-x-0 z-40 sm:hidden bg-ivory-50/95 backdrop-blur-md border-t border-gold-300 px-3 py-2.5 flex items-center gap-2 shadow-lg no-print">
+    <a href="https://wa.me/919962139116?text=Namaskaram%2C%20we%20viewed%20Sai%20Prashanth%20Krishnan%27s%20matrimonial%20profile."
+      target="_blank" rel="noopener noreferrer"
+      class="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white font-semibold text-xs flex items-center justify-center gap-1.5 shadow">
+      <span>WhatsApp</span>
+    </a>
+    <a href="tel:+919962139116"
+      class="flex-1 py-2.5 rounded-xl bg-burgundy-900 text-gold-200 font-semibold text-xs flex items-center justify-center gap-1.5 shadow">
+      <span>Call Now</span>
+    </a>
+    <button onclick="openBiodataModal()"
+      class="px-3.5 py-2.5 rounded-xl bg-gold-200 text-burgundy-950 font-bold text-xs border border-gold-400">
+      PDF
+    </button>
+  </div>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox-modal"
+    class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 no-print"
+    onclick="closeLightbox(event)">
+    <div class="relative max-w-3xl w-full flex flex-col items-center" onclick="event.stopPropagation()">
+      <!-- Top Controls -->
+      <div class="w-full flex items-center justify-between text-white mb-3 px-1">
+        <span id="lightbox-counter" class="text-xs font-medium text-stone-300">1 / 8</span>
+        <button onclick="closeLightbox()"
+          class="px-3 py-1.5 rounded-full bg-white/15 hover:bg-white/25 text-white text-xs font-semibold transition">
+          ✕ Close
+        </button>
+      </div>
+
+      <!-- Image Wrapper -->
+      <div
+        class="relative w-full flex items-center justify-center bg-stone-950 rounded-2xl overflow-hidden border border-white/15">
+        <button onclick="prevPhoto()" aria-label="Previous photo"
+          class="absolute left-3 z-10 w-10 h-10 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center text-lg border border-white/20">
+          ‹
+        </button>
+        <img id="lightbox-img" src="" alt="Gallery Preview" class="max-h-[75vh] w-auto object-contain" />
+        <button onclick="nextPhoto()" aria-label="Next photo"
+          class="absolute right-3 z-10 w-10 h-10 rounded-full bg-black/60 hover:bg-black/80 text-white flex items-center justify-center text-lg border border-white/20">
+          ›
+        </button>
+      </div>
+
+      <!-- Caption -->
+      <p id="lightbox-caption" class="mt-3 text-center text-sm text-ivory-100 font-medium"></p>
+    </div>
+  </div>
+
+  <!-- SHARE & QR MODAL -->
+  <div id="share-modal"
+    class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 no-print"
+    onclick="closeShareModal(event)">
+    <div class="bg-ivory-50 rounded-3xl max-w-sm w-full p-6 border-2 border-gold-400 shadow-2xl text-center space-y-4"
+      onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between">
+        <h3 class="font-editorial text-xl font-bold text-burgundy-950" data-i18n="share_modal_title">
+          Share Profile
+        </h3>
+        <button onclick="closeShareModal()" class="w-8 h-8 rounded-full bg-ivory-200 text-stone-700 font-bold text-sm">
+          ✕
+        </button>
+      </div>
+      <p class="text-xs text-stone-600" data-i18n="share_modal_sub">
+        Scan this QR code with any phone camera to open Sai Prashanth
+        Krishnan's profile.
+      </p>
+      <div class="flex justify-center py-2">
+        <div id="modal-qrcode" class="p-3 bg-white rounded-2xl border border-gold-300 shadow-inner"></div>
+      </div>
+      <div class="flex flex-col gap-2 pt-2">
+        <button onclick="copyProfileLink()"
+          class="w-full py-2.5 rounded-xl bg-burgundy-900 text-ivory-50 font-semibold text-xs hover:bg-burgundy-800 transition">
+          Copy Link to Clipboard
+        </button>
+        <a href="https://wa.me/?text=Matrimonial%20Profile%20of%20Sai%20Prashanth%20Krishnan%20%E2%80%94%20Founder%20%26%20Product%20Designer%20(Chennai%20%2F%20Kottayam)%20%E2%80%94%20Contact%3A%20%2B91%2099621%2039116"
+          target="_blank" rel="noopener noreferrer"
+          class="w-full py-2.5 rounded-xl bg-emerald-600 text-white font-semibold text-xs hover:bg-emerald-500 transition">
+          Forward via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- DUAL-TEMPLATE PRINTABLE BIODATA MODAL -->
+  <div id="biodata-modal" class="fixed inset-0 z-50 hidden bg-black/75 backdrop-blur-sm overflow-y-auto p-3 sm:p-6"
+    onclick="closeBiodataModal(event)">
+    <div class="max-w-3xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border border-gold-400"
+      onclick="event.stopPropagation()">
+      <!-- Modal Toolbar (Hidden when printing) -->
+      <div class="bg-burgundy-950 text-ivory-50 px-5 py-4 flex flex-wrap items-center justify-between gap-3 no-print">
+        <div>
+          <h3 class="font-editorial text-lg font-bold">
+            Printable Biodata Preview
+          </h3>
+          <p class="text-xs text-gold-200">
+            Choose a template style and save as PDF
+          </p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="inline-flex rounded-xl bg-white/10 p-1 border border-white/15 text-xs">
+            <button id="tpl-btn-modern" onclick="switchBiodataTemplate('modern')"
+              class="px-3 py-1.5 rounded-lg bg-gold-500 text-burgundy-950 font-bold transition">
+              Modern Editorial
+            </button>
+            <button id="tpl-btn-traditional" onclick="switchBiodataTemplate('traditional')"
+              class="px-3 py-1.5 rounded-lg text-ivory-100 font-medium transition">
+              Traditional Kerala
+            </button>
+          </div>
+
+          <button onclick="window.print()"
+            class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow transition">
+            🖨️ Save / Print PDF
+          </button>
+
+          <button onclick="closeBiodataModal()"
+            class="px-3 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white text-xs font-semibold">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Printable Area -->
+      <div id="print-biodata-area" class="p-6 sm:p-10 bg-white text-stone-900">
+        <!-- TEMPLATE 1: MODERN EDITORIAL -->
+        <div id="template-modern" class="space-y-6">
+          <div
+            class="flex flex-col sm:flex-row items-center sm:items-start justify-between gap-6 border-b-2 border-burgundy-900 pb-6">
+            <div class="text-center sm:text-left space-y-1.5">
+              <p class="text-xs font-bold uppercase tracking-widest text-burgundy-800">
+                Matrimonial Biodata
+              </p>
+              <h1 class="font-editorial text-3xl font-bold text-stone-900">
+                Sai Prashanth Krishnan
+              </h1>
+              <p class="text-sm font-semibold text-stone-700">
+                Founder &amp; Product Designer · AstroAnimate
+              </p>
+              <p class="text-xs text-stone-600">
+                Chennai, Tamil Nadu · Native: Manjamattom, Kottayam, Kerala
+              </p>
+              <p class="text-xs font-bold text-burgundy-900 pt-1">
+                Contact (Call / WhatsApp): +91 99621 39116
+              </p>
+            </div>
+            <img src="./gallery/profile/me_in_suits.webp" alt="Sai Prashanth" onerror="handleImageFallback(this, 'SPK')"
+              class="w-28 h-32 object-cover object-top rounded-xl border-2 border-gold-500 shrink-0" />
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs">
+            <div class="space-y-2">
+              <h4 class="font-bold uppercase tracking-wider text-burgundy-900 border-b border-stone-200 pb-1">
+                Personal &amp; Horoscope
+              </h4>
+              <p>
+                <span class="text-stone-500">Date of Birth:</span>
+                <strong>5 June 1991 (35 Years)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Birth Time &amp; Place:</span>
+                <strong>10:55 AM, Kottayam, Kerala</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Religion &amp; Caste:</span>
+                <strong>Hindu, Vishwakarma</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Nakshatra / Rashi:</span>
+                <strong>Chadayam (Pada 3) · Kumbha</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Lagnam:</span>
+                <strong>Cancer</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Height &amp; Weight:</span>
+                <strong>165 cm · 65 kg (Wheatish, Average)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Languages:</span>
+                <strong>Malayalam, English, Tamil</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Lifestyle:</span>
+                <strong>Non-Veg · Non-Smoker · Non-Drinker</strong>
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <h4 class="font-bold uppercase tracking-wider text-burgundy-900 border-b border-stone-200 pb-1">
+                Family &amp; Partner Preferences
+              </h4>
+              <p>
+                <span class="text-stone-500">Father:</span>
+                <strong>Late Krishnan (Electrical Engineer)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Mother:</span>
+                <strong>Prasanna Kumari (Homemaker)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Siblings:</span>
+                <strong>1 Brother (No Sisters)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Family Type:</span>
+                <strong>Nuclear · Middle Class</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Partner Age:</span>
+                <strong>25–32 Years (Never Married)</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Partner Education:</span>
+                <strong>Graduate or Above</strong>
+              </p>
+              <p>
+                <span class="text-stone-500">Community / Location:</span>
+                <strong>Open / Anywhere in India</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-2 text-xs">
+            <h4 class="font-bold uppercase tracking-wider text-burgundy-900 border-b border-stone-200 pb-1">
+              Education &amp; Career Summary
+            </h4>
+            <p>
+              <strong>Education:</strong> B.E. Electrical &amp; Electronics
+              Engineering (Meenakshi Univ., 2012, First Class) · MBA – Project
+              Management (Annamalai Univ., 2015, First Class) · PG –
+              Industrial Relations (2015).
+            </p>
+            <p>
+              <strong>Career:</strong> Founder &amp; Product Designer at
+              AstroAnimate (2026–Present); previously Senior UI/UX Designer at
+              Elantronics Technology (2025), UI/UX Designer at Neravath
+              Technologies / Samay Labs (2020–2025), Senior Electrical
+              Engineer at Dodsal E&amp;C / Kuwait Oil Corp. (2016–2018), and
+              Electrical Engineer at Kevin Electricals &amp; Manali
+              Petrochemicals (2012–2016).
+            </p>
+          </div>
+        </div>
+
+        <!-- TEMPLATE 2: TRADITIONAL KERALA BIODATA -->
+        <div id="template-traditional" class="hidden traditional-frame p-6 sm:p-8 bg-ivory-50 space-y-5">
+          <div class="text-center border-b-2 border-gold-500 pb-4 space-y-1">
+            <p class="text-burgundy-900 font-bold text-sm">
+              ॥ ശ്രീ ഗുരുവായൂരപ്പൻ തുണ ॥
+            </p>
+            <h1 class="font-editorial text-2xl sm:text-3xl font-bold text-burgundy-950 uppercase tracking-wide">
+              Vivaha Biodata
+            </h1>
+            <p class="text-xs text-stone-600">
+              Manjamattom, Kottayam, Kerala · Currently at Chennai
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 items-center">
+            <img src="./gallery/profile/me_in_suits.webp" alt="Sai Prashanth" onerror="handleImageFallback(this, 'SPK')"
+              class="w-28 h-32 object-cover object-top rounded-lg border-2 border-gold-600 shrink-0" />
+            <table class="w-full text-xs border-collapse">
+              <tbody>
+                <tr class="border-b border-gold-200">
+                  <td class="py-1.5 font-semibold text-stone-600 w-36">
+                    Name
+                  </td>
+                  <td class="py-1.5 font-bold text-burgundy-950">
+                    Sai Prashanth Krishnan
+                  </td>
+                </tr>
+                <tr class="border-b border-gold-200">
+                  <td class="py-1.5 font-semibold text-stone-600">
+                    DOB &amp; Birth Time
+                  </td>
+                  <td class="py-1.5 font-semibold">
+                    5 June 1991 · 10:55 AM (Kottayam)
+                  </td>
+                </tr>
+                <tr class="border-b border-gold-200">
+                  <td class="py-1.5 font-semibold text-stone-600">
+                    Star / Rashi / Lagnam
+                  </td>
+                  <td class="py-1.5 font-semibold">
+                    Chadayam (Pada 3) · Kumbha · Cancer
+                  </td>
+                </tr>
+                <tr class="border-b border-gold-200">
+                  <td class="py-1.5 font-semibold text-stone-600">
+                    Religion &amp; Caste
+                  </td>
+                  <td class="py-1.5 font-semibold">Hindu · Vishwakarma</td>
+                </tr>
+                <tr>
+                  <td class="py-1.5 font-semibold text-stone-600">
+                    Height / Weight
+                  </td>
+                  <td class="py-1.5 font-semibold">
+                    165 cm / 65 kg · Wheatish
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <table class="w-full text-xs border border-gold-300">
+            <tbody>
+              <tr class="border-b border-gold-300 bg-gold-100/60">
+                <td colspan="2" class="px-3 py-1.5 font-bold text-burgundy-950">
+                  Qualifications &amp; Profession
+                </td>
+              </tr>
+              <tr class="border-b border-gold-200">
+                <td class="px-3 py-1.5 font-semibold text-stone-600 w-40">
+                  Education
+                </td>
+                <td class="px-3 py-1.5">
+                  B.E. (EEE) First Class, MBA (Project Management) First
+                  Class, PG (Industrial Relations)
+                </td>
+              </tr>
+              <tr class="border-b border-gold-200">
+                <td class="px-3 py-1.5 font-semibold text-stone-600">
+                  Current Profession
+                </td>
+                <td class="px-3 py-1.5">
+                  Founder &amp; Product Designer, AstroAnimate (6+ Yrs UI/UX
+                  Experience)
+                </td>
+              </tr>
+              <tr class="border-b border-gold-300 bg-gold-100/60">
+                <td colspan="2" class="px-3 py-1.5 font-bold text-burgundy-950">
+                  Family Details
+                </td>
+              </tr>
+              <tr class="border-b border-gold-200">
+                <td class="px-3 py-1.5 font-semibold text-stone-600">
+                  Father
+                </td>
+                <td class="px-3 py-1.5">
+                  Late Krishnan (Electrical Engineer)
+                </td>
+              </tr>
+              <tr class="border-b border-gold-200">
+                <td class="px-3 py-1.5 font-semibold text-stone-600">
+                  Mother
+                </td>
+                <td class="px-3 py-1.5">Prasanna Kumari (Homemaker)</td>
+              </tr>
+              <tr class="border-b border-gold-200">
+                <td class="px-3 py-1.5 font-semibold text-stone-600">
+                  Siblings &amp; Native
+                </td>
+                <td class="px-3 py-1.5">
+                  1 Brother (No Sisters) · Manjamattom, Kottayam
+                </td>
+              </tr>
+              <tr>
+                <td class="px-3 py-1.5 font-semibold text-stone-600">
+                  Contact Number
+                </td>
+                <td class="px-3 py-1.5 font-bold text-burgundy-900">
+                  +91 99621 39116 (Call &amp; WhatsApp)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Message Container -->
+  <div id="toast-box"
+    class="fixed bottom-16 sm:bottom-6 left-1/2 -translate-x-1/2 z-50 hidden px-4 py-2.5 rounded-full bg-burgundy-950 text-ivory-50 text-xs font-semibold shadow-xl border border-gold-400">
+    Link copied to clipboard!
+  </div>
+
+  <!-- Application Logic & Bilingual Dictionary -->
+  <script>
+    // 1. Photo Gallery Dataset (Using exact image names from gallery)
+    const galleryPhotos = [
+      // --- PORTRAITS ---
+      {
+        src: "gallery/Bike portrait (1).jpg",
+        category: "portraits",
+        captionEn: "Bike portrait (1)",
+        captionMl: "Bike portrait (1)",
+      },
+      {
+        src: "gallery/Bike portrait (2).JPG",
+        category: "portraits",
+        captionEn: "Bike portrait (2)",
+        captionMl: "Bike portrait (2)",
+      },
+      {
+        src: "gallery/Candid portrait (1).jpg",
+        category: "portraits",
+        captionEn: "Candid portrait (1)",
+        captionMl: "Candid portrait (1)",
+      },
+      {
+        src: "gallery/Candid portrait (2).jpg",
+        category: "portraits",
+        captionEn: "Candid portrait (2)",
+        captionMl: "Candid portrait (2)",
+      },
+      {
+        src: "gallery/Car candid pic (1).jpg",
+        category: "portraits",
+        captionEn: "Car candid pic (1)",
+        captionMl: "Car candid pic (1)",
+      },
+      {
+        src: "gallery/Car candid pic (2).jpg",
+        category: "portraits",
+        captionEn: "Car candid pic (2)",
+        captionMl: "Car candid pic (2)",
+      },
+      {
+        src: "gallery/Car candid pic (3).jpg",
+        category: "portraits",
+        captionEn: "Car candid pic (3)",
+        captionMl: "Car candid pic (3)",
+      },
+      {
+        src: "gallery/Latest pic (1).jpg",
+        category: "portraits",
+        captionEn: "Latest pic (1)",
+        captionMl: "Latest pic (1)",
+      },
+      {
+        src: "gallery/Latest pic (2).jpg",
+        category: "portraits",
+        captionEn: "Latest pic (2)",
+        captionMl: "Latest pic (2)",
+      },
+      {
+        src: "gallery/Side profile.png",
+        category: "portraits",
+        captionEn: "Side profile",
+        captionMl: "Side profile",
+      },
+      {
+        src: "gallery/me with pingu.jpg",
+        category: "portraits",
+        captionEn: "me with pingu",
+        captionMl: "me with pingu",
+      },
+
+      // --- SELFIE ---
+      {
+        src: "gallery/car selfie.webp",
+        category: "selfie",
+        captionEn: "car selfie",
+        captionMl: "car selfie",
+      },
+      {
+        src: "gallery/Me & Amma Selfie.jpg",
+        category: "selfie",
+        captionEn: "Me & Amma Selfie",
+        captionMl: "Me & Amma Selfie",
+      },
+      {
+        src: "gallery/Selfie (1).jpg",
+        category: "selfie",
+        captionEn: "Selfie (1)",
+        captionMl: "Selfie (1)",
+      },
+      {
+        src: "gallery/Selfie (2).jpg",
+        category: "selfie",
+        captionEn: "Selfie (2)",
+        captionMl: "Selfie (2)",
+      },
+      {
+        src: "gallery/Selfie (3).jpg",
+        category: "selfie",
+        captionEn: "Selfie (3)",
+        captionMl: "Selfie (3)",
+      },
+
+      // --- COLLAGE ---
+      {
+        src: "gallery/Collage (1).jpg",
+        category: "collage",
+        captionEn: "Collage (1)",
+        captionMl: "Collage (1)",
+      },
+      {
+        src: "gallery/Collage (2).jpg",
+        category: "collage",
+        captionEn: "Collage (2)",
+        captionMl: "Collage (2)",
+      },
+
+      // --- TRAVEL ---
+      {
+        src: "gallery/Kanthaloor trip (1).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (1)",
+        captionMl: "Kanthaloor trip (1)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (4).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (4)",
+        captionMl: "Kanthaloor trip (4)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (5).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (5)",
+        captionMl: "Kanthaloor trip (5)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (6).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (6)",
+        captionMl: "Kanthaloor trip (6)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (7).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (7)",
+        captionMl: "Kanthaloor trip (7)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (8).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (8)",
+        captionMl: "Kanthaloor trip (8)",
+      },
+      {
+        src: "gallery/Kanthaloor trip (9).jpg",
+        category: "travel",
+        captionEn: "Kanthaloor trip (9)",
+        captionMl: "Kanthaloor trip (9)",
+      },
+      {
+        src: "gallery/Kuwait.jpg",
+        category: "travel",
+        captionEn: "Kuwait",
+        captionMl: "Kuwait",
+      },
+      {
+        src: "gallery/Me at forum mall (1).jpg",
+        category: "travel",
+        captionEn: "Me at forum mall (1)",
+        captionMl: "Me at forum mall (1)",
+      },
+      {
+        src: "gallery/Me at forum mall (2).jpg",
+        category: "travel",
+        captionEn: "Me at forum mall (2)",
+        captionMl: "Me at forum mall (2)",
+      },
+      {
+        src: "gallery/Me at forum mall (3).jpg",
+        category: "travel",
+        captionEn: "Me at forum mall (3)",
+        captionMl: "Me at forum mall (3)",
+      },
+      {
+        src: "gallery/Park (1).jpg",
+        category: "travel",
+        captionEn: "Park (1)",
+        captionMl: "Park (1)",
+      },
+      {
+        src: "gallery/Park (2).jpg",
+        category: "travel",
+        captionEn: "Park (2)",
+        captionMl: "Park (2)",
+      },
+    ];
+
+    let currentLang = "en";
+    let filteredPhotos = [...galleryPhotos];
+    let currentLightboxIndex = 0;
+
+    // 2. Graceful Image Fallback (in case user previews HTML before placing images in same folder)
+    function handleImageFallback(imgEl, label) {
+      if (imgEl.dataset.fallbackApplied) return;
+      imgEl.dataset.fallbackApplied = "true";
+      const encoded = encodeURIComponent(label || "Sai Prashanth");
+      imgEl.src = `https://placehold.co/600x750/4c0d1d/ead9b3?text=${encoded}`;
+    }
+
+    // 3. Render Gallery Grid
+    function renderGallery(category = "all") {
+      const grid = document.getElementById("gallery-grid");
+      if (!grid) return;
+
+      filteredPhotos =
+        category === "all"
+          ? [...galleryPhotos]
+          : galleryPhotos.filter((p) => p.category === category);
+
+      grid.innerHTML = filteredPhotos
+        .map((photo, idx) => {
+          const caption =
+            currentLang === "ml" ? photo.captionMl : photo.captionEn;
+          return `
+          <button
+            type="button"
+            onclick="openLightbox(${idx})"
+            class="group relative aspect-[3/4] rounded-2xl overflow-hidden bg-ivory-200 border border-gold-300/70 shadow-sm focus:outline-none focus:ring-2 focus:ring-burgundy-800"
+          >
+            <img
+              src="${photo.src}"
+              alt="${caption}"
+              loading="lazy"
+              onerror="handleImageFallback(this, '${photo.captionEn}')"
+              class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105"
+            />
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent p-3 text-left">
+              <p class="text-white text-xs font-medium line-clamp-1">${caption}</p>
+            </div>
+          </button>
+        `;
+        })
+        .join("");
+    }
+
+    function filterGallery(category, btnEl) {
+      document.querySelectorAll(".gallery-filter-btn").forEach((btn) => {
+        btn.classList.remove("bg-burgundy-900", "text-ivory-50");
+        btn.classList.add("bg-ivory-200", "text-stone-700");
+      });
+      if (btnEl) {
+        btnEl.classList.remove("bg-ivory-200", "text-stone-700");
+        btnEl.classList.add("bg-burgundy-900", "text-ivory-50");
+      }
+      renderGallery(category);
+    }
+
+    // 4. Lightbox Controls
+    function openLightbox(index) {
+      currentLightboxIndex = index;
+      updateLightboxView();
+      document.getElementById("lightbox-modal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox(event) {
+      if (event && event.target !== event.currentTarget) return;
+      document.getElementById("lightbox-modal").classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+
+    function updateLightboxView() {
+      const photo = filteredPhotos[currentLightboxIndex];
+      if (!photo) return;
+      const img = document.getElementById("lightbox-img");
+      img.dataset.fallbackApplied = "";
+      img.src = photo.src;
+      img.onerror = () => handleImageFallback(img, photo.captionEn);
+      document.getElementById("lightbox-caption").textContent =
+        currentLang === "ml" ? photo.captionMl : photo.captionEn;
+      document.getElementById("lightbox-counter").textContent =
+        `${currentLightboxIndex + 1} / ${filteredPhotos.length}`;
+    }
+
+    function nextPhoto() {
+      currentLightboxIndex =
+        (currentLightboxIndex + 1) % filteredPhotos.length;
+      updateLightboxView();
+    }
+
+    function prevPhoto() {
+      currentLightboxIndex =
+        (currentLightboxIndex - 1 + filteredPhotos.length) %
+        filteredPhotos.length;
+      updateLightboxView();
+    }
+
+    // Keyboard support for Lightbox
+    document.addEventListener("keydown", (e) => {
+      const lb = document.getElementById("lightbox-modal");
+      if (!lb.classList.contains("hidden")) {
+        if (e.key === "Escape") closeLightbox();
+        if (e.key === "ArrowRight") nextPhoto();
+        if (e.key === "ArrowLeft") prevPhoto();
+      }
+    });
+
+    // 5. Printable Biodata Modal Controls
+    function openBiodataModal() {
+      document.getElementById("biodata-modal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeBiodataModal(event) {
+      if (event && event.target !== event.currentTarget) return;
+      document.getElementById("biodata-modal").classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+
+    function switchBiodataTemplate(type) {
+      const mod = document.getElementById("template-modern");
+      const trad = document.getElementById("template-traditional");
+      const btnMod = document.getElementById("tpl-btn-modern");
+      const btnTrad = document.getElementById("tpl-btn-traditional");
+
+      if (type === "modern") {
+        mod.classList.remove("hidden");
+        trad.classList.add("hidden");
+        btnMod.className =
+          "px-3 py-1.5 rounded-lg bg-gold-500 text-burgundy-950 font-bold transition";
+        btnTrad.className =
+          "px-3 py-1.5 rounded-lg text-ivory-100 font-medium transition";
+      } else {
+        trad.classList.remove("hidden");
+        mod.classList.add("hidden");
+        btnTrad.className =
+          "px-3 py-1.5 rounded-lg bg-gold-500 text-burgundy-950 font-bold transition";
+        btnMod.className =
+          "px-3 py-1.5 rounded-lg text-ivory-100 font-medium transition";
+      }
+    }
+
+    // 6. Share & QR Code Generation
+    function openShareModal() {
+      document.getElementById("share-modal").classList.remove("hidden");
+    }
+
+    function closeShareModal(event) {
+      if (event && event.target !== event.currentTarget) return;
+      document.getElementById("share-modal").classList.add("hidden");
+    }
+
+    function initQRCodes() {
+      const pageUrl = window.location.href;
+      const targets = ["footer-qrcode", "modal-qrcode"];
+      targets.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el && typeof QRCode !== "undefined") {
+          el.innerHTML = "";
+          new QRCode(el, {
+            text: pageUrl,
+            width: 132,
+            height: 132,
+            colorDark: "#4c0d1d",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.M,
+          });
+        }
+      });
+    }
+
+    // 7. Clipboard Copy Helper (using fallback-safe execCommand)
+    function copyProfileLink() {
+      const url = window.location.href;
+      const tempInput = document.createElement("input");
+      tempInput.value = url;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand("copy");
+        showToast(
+          currentLang === "ml"
+            ? "ലിങ്ക് കോപ്പി ചെയ്തു!"
+            : "Profile link copied to clipboard!",
+        );
+      } catch (err) {
+        showToast("Please copy the URL from your browser bar.");
+      }
+      document.body.removeChild(tempInput);
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast-box");
+      toast.textContent = msg;
+      toast.classList.remove("hidden");
+      toast.classList.add("toast-active");
+      setTimeout(() => {
+        toast.classList.add("hidden");
+        toast.classList.remove("toast-active");
+      }, 2600);
+    }
+
+    // 8. Bilingual Dictionary (English & Malayalam)
+    const translations = {
+      en: {
+        nav_name: "Sai Prashanth Krishnan",
+        nav_sub: "Matrimonial Biodata",
+        nav_about: "About",
+        nav_horoscope: "Horoscope",
+        nav_career: "Education & Career",
+        nav_family: "Family",
+        nav_gallery: "Gallery",
+        nav_preferences: "Partner",
+        btn_pdf_short: "Biodata PDF",
+        hero_status: "Never Married · 35 Yrs",
+        hero_eyebrow: "Matrimonial Profile & Family Biodata",
+        hero_subtitle: "Founder & Product Designer · Chennai, Tamil Nadu",
+        hero_roots: "Native Roots: Manjamattom, Kottayam, Kerala",
+        badge_dob: "🎂 5 June 1991 (35 Yrs)",
+        badge_physique: "📏 165 cm · 65 kg",
+        badge_community: "🕉️ Hindu · Vishwakarma",
+        badge_star: "✨ Chadayam · Pada 3",
+        badge_edu: "🎓 B.E. (EEE) & MBA",
+        cta_whatsapp: "WhatsApp",
+        cta_call: "Call +91 99621 39116",
+        cta_biodata: "Download / Print PDF",
+        cta_qr: "QR & Share",
+        sec_about_title: "About Me",
+        about_intro:
+          '"A thoughtful, creative and technology-oriented person who enjoys designing and building digital products, staying active, listening to music and continuously learning."',
+        hobbies_heading: "Interests & Lifestyle",
+        hobby_1: "💻 Technology & Product Design",
+        hobby_2: "🚀 Building Digital Products",
+        hobby_3: "🎵 Music",
+        hobby_4: "🏃‍♂️ Fitness & Regular Exercise",
+        hobby_5: "📚 Continuous Learning",
+        sec_personal_title: "Personal Details",
+        lbl_fullname: "Full Name",
+        lbl_dob: "Date of Birth & Age",
+        val_dob: "5 June 1991 (35 Years)",
+        lbl_birthplace: "Place of Birth",
+        val_birthplace: "Kottayam, Kerala",
+        lbl_native: "Native Place",
+        val_native: "Manjamattom, Kottayam, Kerala",
+        lbl_location: "Current Location",
+        val_location: "Chennai, Tamil Nadu",
+        lbl_mothertongue: "Mother Tongue & Languages",
+        val_languages: "Malayalam (English, Tamil)",
+        lbl_physique: "Height, Weight & Build",
+        val_physique: "165 cm · 65 kg · Average",
+        lbl_complexion: "Complexion",
+        val_complexion: "Wheatish",
+        lbl_diet: "Food Preference",
+        val_diet: "Non-Vegetarian",
+        lbl_habits: "Smoking / Alcohol / Fitness",
+        val_habits: "No / No · Regular Exercise",
+        sec_horoscope_title: "Horoscope & Astrological Details",
+        sec_horoscope_sub: "Hindu · Vishwakarma Community",
+        btn_req_jathakam: "Request Jathakam on WhatsApp",
+        lbl_birthtime: "Birth Time",
+        lbl_nakshatra: "Nakshatra",
+        val_nakshatra: "Chadayam (Pada 3)",
+        lbl_rashi: "Rashi",
+        val_rashi: "Kumbha (Aquarius)",
+        lbl_lagnam: "Lagnam",
+        val_lagnam: "Cancer (Karkidakam)",
+        lbl_community: "Religion / Caste",
+        val_community: "Hindu · Vishwakarma",
+        lbl_jathakam: "Jathakam Status",
+        val_jathakam: "Available (Private)",
+        sec_edu_title: "Education",
+        sec_career_title: "Professional Journey",
+        career_exp_badge: "6+ Yrs in Product Design · 13+ Yrs Total Exp.",
+        sec_family_title: "Family Background",
+        family_intro:
+          '"Our family has its roots in Manjamattom, Kottayam, Kerala, and is currently based in Chennai. My father, Late Krishnan, was an Electrical Engineer, and my mother, Prasanna Kumari, is a homemaker. We are a close-knit family of simple values, with respect for traditions, mutual understanding, and care for one another. We believe in maintaining strong family bonds while embracing modern perspectives."',
+        lbl_father: "Father",
+        val_father: "Krishnan (Late)",
+        val_father_occ: "Electrical Engineer",
+        lbl_mother: "Mother",
+        val_mother: "Prasanna Kumari",
+        val_mother_occ: "Homemaker",
+        lbl_siblings: "Siblings",
+        val_siblings: "1 Brother",
+        val_sisters: "No Sisters",
+        lbl_family_type: "Family Values & Roots",
+        val_family_type: "Nuclear · Middle Class",
+        val_family_roots: "Manjamattom, Kottayam / Chennai",
+        sec_gallery_title: "Photo Gallery",
+        sec_gallery_sub: "Tap any photograph to view full screen",
+        filter_all: "All",
+        filter_portraits: "Portraits",
+        filter_selfie: "Selfie",
+        filter_collage: "Collage",
+        filter_travel: "Travel",
+        sec_partner_title: "Partner Preferences",
+        partner_flex_badge: "Flexible & Open to Discussion",
+        partner_expectation:
+          '"Looking for a kind, understanding, caring, respectful, and family-oriented life partner who values mutual respect, trust, understanding, and togetherness."',
+        pref_lbl_age: "Preferred Age",
+        pref_val_age: "25 – 32 Years",
+        pref_lbl_marital: "Marital Status",
+        pref_val_marital: "Never Married",
+        pref_lbl_edu: "Education",
+        pref_val_edu: "Graduate or Above",
+        pref_lbl_loc: "Location",
+        pref_val_loc: "Anywhere in India",
+        pref_lbl_height: "Height",
+        pref_val_height: "No Specific Preference",
+        pref_lbl_prof: "Profession",
+        pref_val_prof: "Any Profession",
+        pref_lbl_religion: "Religion / Community",
+        pref_val_religion: "Open / No Specific Preference",
+        pref_lbl_qualities: "Core Qualities",
+        pref_val_qualities: "Kind, Caring & Family-Oriented",
+        contact_badge: "Direct Family & Personal Contact",
+        contact_title: "Connect with Us",
+        contact_desc:
+          "Families, elders, and matrimonial coordinators are warmly welcome to reach out via phone call or WhatsApp to take discussions forward or request horoscope matching details.",
+        btn_copylink: "Copy Profile Link",
+        qr_caption: "Scan to Open Digital Biodata",
+        share_modal_title: "Share Profile",
+        share_modal_sub:
+          "Scan this QR code with any phone camera to open Sai Prashanth Krishnan's profile.",
+      },
+      ml: {
+        nav_name: "സായ് പ്രശാന്ത് കൃഷ്ണൻ",
+        nav_sub: "വിവാഹ ബയോഡാറ്റ",
+        nav_about: "വ്യക്തിവിവരങ്ങൾ",
+        nav_horoscope: "ജാതകം",
+        nav_career: "വിദ്യാഭ്യാസം & ജോലി",
+        nav_family: "കുടുംബം",
+        nav_gallery: "ഫോട്ടോകൾ",
+        nav_preferences: "പങ്കാളി സങ്കല്പം",
+        btn_pdf_short: "ബയോഡാറ്റ PDF",
+        hero_status: "അവിവാഹിതൻ · 35 വയസ്സ്",
+        hero_eyebrow: "വിവാഹ പ്രൊഫൈൽ & കുടുംബ ബയോഡാറ്റ",
+        hero_subtitle: "ഫൗണ്ടർ & പ്രൊഡക്റ്റ് ഡിസൈനർ · ചെന്നൈ, തമിഴ്നാട്",
+        hero_roots: "സ്വദേശം: മഞ്ഞമറ്റം, കോട്ടയം, കേരളം",
+        badge_dob: "🎂 1991 ജൂൺ 5 (35 വയസ്സ്)",
+        badge_physique: "📏 165 സെ.മീ · 65 കി.ഗ്രാം",
+        badge_community: "🕉️ ഹിന്ദു · വിശ്വകർമ്മ",
+        badge_star: "✨ ചതയം · 3-ാം പാദം",
+        badge_edu: "🎓 B.E. (EEE) & MBA",
+        cta_whatsapp: "വാട്സ്ആപ്പ്",
+        cta_call: "വിളിക്കുക +91 99621 39116",
+        cta_biodata: "PDF ഡൗൺലോഡ് / പ്രിന്റ്",
+        cta_qr: "QR & ഷെയർ",
+        sec_about_title: "എന്നെക്കുറിച്ച്",
+        about_intro:
+          '"ഡിജിറ്റൽ ഉൽപ്പന്നങ്ങൾ രൂപകൽപ്പന ചെയ്യുന്നതിലും നിർമ്മിക്കുന്നതിലും താല്പര്യമുള്ള, ക്രിയാത്മകവും സാങ്കേതികവിദ്യയോട് ആഭിമുഖ്യമുള്ളതുമായ വ്യക്തിയാണ്. വ്യായാമം, സംഗീതം, പുതിയ കാര്യങ്ങൾ പഠിക്കുക എന്നിവ ഇഷ്ടപ്പെടുന്നു."',
+        hobbies_heading: "താല്പര്യങ്ങളും ജീവിതശൈലിയും",
+        hobby_1: "💻 ടെക്നോളജി & പ്രൊഡക്റ്റ് ഡിസൈൻ",
+        hobby_2: "🚀 ഡിജിറ്റൽ പ്രൊഡക്റ്റുകൾ",
+        hobby_3: "🎵 സംഗീതം",
+        hobby_4: "🏃‍♂️ ഫിറ്റ്നസ് & വ്യായാമം",
+        hobby_5: "📚 പുതിയ അറിവുകൾ നേടൽ",
+        sec_personal_title: "വ്യക്തിഗത വിവരങ്ങൾ",
+        lbl_fullname: "പൂർണ്ണരൂപം (പേര്)",
+        lbl_dob: "ജനനത്തീയതിയും വയസ്സും",
+        val_dob: "1991 ജൂൺ 5 (35 വയസ്സ്)",
+        lbl_birthplace: "ജനനസ്ഥലം",
+        val_birthplace: "കോട്ടയം, കേരളം",
+        lbl_native: "സ്വദേശം (കുടുംബവേരുകൾ)",
+        val_native: "മഞ്ഞമറ്റം, കോട്ടയം, കേരളം",
+        lbl_location: "നിലവിലെ താമസം",
+        val_location: "ചെന്നൈ, തമിഴ്നാട്",
+        lbl_mothertongue: "മാതൃഭാഷയും മറ്റ് ഭാഷകളും",
+        val_languages: "മലയാളം (ഇംഗ്ലീഷ്, തമിഴ്)",
+        lbl_physique: "ഉയരം, ഭാരം & ശരീരപ്രകൃതി",
+        val_physique: "165 സെ.മീ · 65 കി.ഗ്രാം · ഇടത്തരം",
+        lbl_complexion: "നിറം",
+        val_complexion: "ഗോതമ്പ് നിറം (Wheatish)",
+        lbl_diet: "ഭക്ഷണരീതി",
+        val_diet: "സസ്യേതരം (Non-Vegetarian)",
+        lbl_habits: "ശീലങ്ങൾ & ആരോഗ്യം",
+        val_habits: "പുകവലി / മദ്യപാനം ഇല്ല · പതിവ് വ്യായാമം",
+        sec_horoscope_title: "ജാതക & ജ്യോതിഷ വിവരങ്ങൾ",
+        sec_horoscope_sub: "ഹിന്ദു · വിശ്വകർമ്മ സമുദായം",
+        btn_req_jathakam: "വാട്സ്ആപ്പിലൂടെ ജാതകം ആവശ്യപ്പെടുക",
+        lbl_birthtime: "ജനനസമയം",
+        lbl_nakshatra: "നക്ഷത്രം",
+        val_nakshatra: "ചതയം (3-ാം പാദം)",
+        lbl_rashi: "രാശി",
+        val_rashi: "കുംഭം (Aquarius)",
+        lbl_lagnam: "ലഗ്നം",
+        val_lagnam: "കർക്കടകം (Cancer)",
+        lbl_community: "മതം / സമുദായം",
+        val_community: "ഹിന്ദു · വിശ്വകർമ്മ",
+        lbl_jathakam: "ജാതകം",
+        val_jathakam: "ലഭ്യമാണ് (സ്വകാര്യമായി പങ്കുവെക്കും)",
+        sec_edu_title: "വിദ്യാഭ്യാസ യോഗ്യതകൾ",
+        sec_career_title: "ഔദ്യോഗിക ജീവിതം",
+        career_exp_badge: "6+ വർഷം പ്രൊഡക്റ്റ് ഡിസൈൻ · 13+ വർഷം ആകെ പരിചയം",
+        sec_family_title: "കുടുംബ പശ്ചാത്തലം",
+        family_intro:
+          '"ഞങ്ങളുടെ കുടുംബവേരുകൾ കേരളത്തിലെ കോട്ടയം ജില്ലയിലുള്ള മഞ്ഞമറ്റത്താണ്. നിലവിൽ ചെന്നൈയിലാണ് താമസം. അച്ഛൻ പരേതനായ കൃഷ്ണൻ ഇലക്ട്രിക്കൽ എഞ്ചിനീയറായിരുന്നു. അമ്മ പ്രസന്നകുമാരി വീട്ടമ്മയാണ്. പാരമ്പര്യങ്ങളെയും മൂല്യങ്ങളെയും ബഹുമാനിക്കുന്നതോടൊപ്പം ആധുനിക കാഴ്ചപ്പാടുകളെയും ഉൾക്കൊള്ളുന്ന സ്നേഹബന്ധമുള്ള കുടുംബമാണ് ഞങ്ങളുടേത്."',
+        lbl_father: "അച്ഛൻ",
+        val_father: "കൃഷ്ണൻ (പരേതൻ)",
+        val_father_occ: "ഇലക്ട്രിക്കൽ എഞ്ചിനീയർ",
+        lbl_mother: "അമ്മ",
+        val_mother: "പ്രസന്നകുമാരി",
+        val_mother_occ: "വീട്ടമ്മ",
+        lbl_siblings: "സഹോദരങ്ങൾ",
+        val_siblings: "1 സഹോദരൻ",
+        val_sisters: "സഹോദരിമാർ ഇല്ല",
+        lbl_family_type: "കുടുംബരീതി & സ്വദേശം",
+        val_family_type: "അണുകുടുംബം · ഇടത്തരം",
+        val_family_roots: "മഞ്ഞമറ്റം, കോട്ടയം / ചെന്നൈ",
+        sec_gallery_title: "ഫോട്ടോ ഗാലറി",
+        sec_gallery_sub: "വലുതായി കാണാൻ ഫോട്ടോയിൽ ക്ലിക്ക് ചെയ്യുക",
+        filter_all: "എല്ലാം",
+        filter_portraits: "പോർട്രെയ്റ്റുകൾ",
+        filter_selfie: "സെൽഫി",
+        filter_collage: "കൊളാഷ്",
+        filter_travel: "യാത്ര",
+        sec_partner_title: "ജീവിതപങ്കാളിയെക്കുറിച്ചുള്ള സങ്കല്പം",
+        partner_flex_badge: "ചർച്ചകൾക്ക് തുറന്ന സമീപനം",
+        partner_expectation:
+          '"പരസ്പര ബഹുമാനവും വിശ്വാസവും സ്നേഹവും കുടുംബമൂല്യങ്ങളും കാത്തുസൂക്ഷിക്കുന്ന, ദയയും മനസ്സിലാക്കലുമുള്ള ഒരു ജീവിതപങ്കാളിയെ തേടുന്നു."',
+        pref_lbl_age: "പ്രായപരിധി",
+        pref_val_age: "25 – 32 വയസ്സ്",
+        pref_lbl_marital: "വൈവാഹിക നില",
+        pref_val_marital: "അവിവാഹിത",
+        pref_lbl_edu: "വിദ്യാഭ്യാസം",
+        pref_val_edu: "ബിരുദം അല്ലെങ്കിൽ അതിനുമുകളിൽ",
+        pref_lbl_loc: "സ്ഥലം",
+        pref_val_loc: "ഇന്ത്യയിൽ എവിടെയും",
+        pref_lbl_height: "ഉയരം",
+        pref_val_height: "പ്രത്യേക നിബന്ധനകളില്ല",
+        pref_lbl_prof: "ജോലി",
+        pref_val_prof: "ഏത് തൊഴിലും",
+        pref_lbl_religion: "മതം / സമുദായം",
+        pref_val_religion: "പ്രത്യേക നിബന്ധനകളില്ല",
+        pref_lbl_qualities: "പ്രധാന ഗുണങ്ങൾ",
+        pref_val_qualities: "സ്നേഹവും കുടുംബബോധവുമുള്ള വ്യക്തി",
+        contact_badge: "നേരിട്ടുള്ള കുടുംബ ബന്ധപ്പെടൽ",
+        contact_title: "ബന്ധപ്പെടുക",
+        contact_desc:
+          "കൂടുതൽ വിവരങ്ങൾക്കും ജാതക പരിശോധനയ്ക്കുമായി രക്ഷിതാക്കൾക്കും വിവാഹ ബ്രോക്കർമാർക്കും ഫോൺ വഴിയോ വാട്സ്ആപ്പ് വഴിയോ ബന്ധപ്പെടാവുന്നതാണ്.",
+        btn_copylink: "പ്രൊഫൈൽ ലിങ്ക് കോപ്പി ചെയ്യുക",
+        qr_caption: "ഡിജിറ്റൽ ബയോഡാറ്റ തുറക്കാൻ സ്കാൻ ചെയ്യുക",
+        share_modal_title: "പ്രൊഫൈൽ ഷെയർ ചെയ്യുക",
+        share_modal_sub:
+          "സായ് പ്രശാന്ത് കൃഷ്ണന്റെ പ്രൊഫൈൽ തുറക്കാൻ ഈ QR കോഡ് സ്കാൻ ചെയ്യുക.",
+      },
+    };
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      const dict = translations[lang] || translations.en;
+
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (dict[key]) {
+          el.textContent = dict[key];
+        }
+      });
+
+      const btnEn = document.getElementById("btn-lang-en");
+      const btnMl = document.getElementById("btn-lang-ml");
+      if (lang === "en") {
+        btnEn.className =
+          "px-2.5 py-1 rounded-full text-xs font-semibold transition bg-burgundy-900 text-ivory-50 shadow-sm";
+        btnMl.className =
+          "px-2.5 py-1 rounded-full text-xs font-semibold transition text-stone-700 hover:text-burgundy-900";
+      } else {
+        btnMl.className =
+          "px-2.5 py-1 rounded-full text-xs font-semibold transition bg-burgundy-900 text-ivory-50 shadow-sm";
+        btnEn.className =
+          "px-2.5 py-1 rounded-full text-xs font-semibold transition text-stone-700 hover:text-burgundy-900";
+      }
+
+      // Re-render gallery captions in active language
+      renderGallery("all");
+    }
+
+    // Initialize on load
+    window.addEventListener("DOMContentLoaded", () => {
+      renderGallery("all");
+      initQRCodes();
+    });
+  </script>
+</body>
+
+</html>
